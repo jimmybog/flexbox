@@ -1,0 +1,113 @@
+html {
+    background-color: #FFFFFF;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+nav {
+    background: #448fb6;
+    padding: 0px 0px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+.menu {   
+    list-style-type: none;
+    
+}
+
+.logo {
+    padding: 0px 0px;
+    
+}
+.item {
+    padding: 10px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
+
+/* Mobile menu */
+@media all and (min-width: 700px) {
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a {
+    display: block;
+    padding: 15px 15px;
+    
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.item {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: none;
+     
+}
+.active .item {
+    display: block;
+    background-color: green;
+}
+
+}
+
+/* Tablet menu */
+@media all and (min-width: 700px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 1;
+    }
+}
+
+/* Desktop menu */
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: center;     
+        flex-wrap: nowrap;
+ 
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+        font-size: 20px;
+    }
+         
+    .toggle {
+        display: none;
+    }
+    
+}
