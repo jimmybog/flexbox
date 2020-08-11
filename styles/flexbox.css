@@ -39,7 +39,7 @@ a {
 }
 
 /* Mobile menu */
-@media all and (min-width: 700px) {
+
 
 .menu {
     display: flex;
@@ -70,10 +70,10 @@ a {
     background-color: green;
 }
 
-}
+
 
 /* Tablet menu */
-
+@media all and (min-width: 700px) {
     .menu {
         justify-content: center;
     }
@@ -86,7 +86,7 @@ a {
         text-align: right;
         order: 1;
     }
-
+}
 
 /* Desktop menu */
 @media all and (min-width: 960px) {
