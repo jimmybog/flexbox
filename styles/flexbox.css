@@ -18,20 +18,18 @@ nav {
 a {
     color: white;
     text-decoration: none;
-    
+     
 }
 .menu {   
     list-style-type: none;
-    
+    padding: 20px 0px;
 }
 
 .logo {
     padding: 0px 0px;
     
 }
-.item {
-    padding: 10px;
-}
+
 
 .item:not(.button) a:hover,
 .item a:hover::after {
@@ -39,12 +37,12 @@ a {
 }
 
 .divbar {
-    padding: 10px 10px;
+    padding: 35px 0px;
     white-space: pre;
     text-align: center;
     background-color: #3c5a69;
     color: white;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 /* Mobile menu */
@@ -58,13 +56,13 @@ a {
 }
 .menu li a {
     display: block;
-    padding: 15px 15px;
+    padding: 15px 30px;
     
 }
 
 .toggle {
     order: 1;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .item {
@@ -112,7 +110,7 @@ a {
         position: relative;
         display: block; 
         width: auto;
-        font-size: 20px;
+        font-size: 26px;
     }
          
     .toggle {
