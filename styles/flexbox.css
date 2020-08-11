@@ -38,6 +38,15 @@ a {
     color: #ccc;
 }
 
+.divbar {
+    padding: 10px 10px;
+    white-space: pre;
+    text-align: center;
+    background-color: #3c5a69;
+    color: white;
+    font-size: 20px;
+}
+
 /* Mobile menu */
 
 
@@ -55,7 +64,7 @@ a {
 
 .toggle {
     order: 1;
-    font-size: 20px;
+    font-size: 60px;
 }
 
 .item {
